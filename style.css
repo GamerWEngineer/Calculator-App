@@ -1,20 +1,7 @@
-p{
-    color: rgb(0, 0, 0);
-    font-size: 16px;
-    line-height: 1.5;
-}
-h1 {
-    color: rgb(5, 116, 207);
-    font-size: 24px;
-    text-align: center;
-}
-a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-/*
+
+/* CSS Document
+Styling for the calculator application
+*/
 table {
     color: #fff;
     text-align: center;
@@ -49,4 +36,4 @@ td {
 }
 .clearButton{
     background-color: #656165;
-}*/
+}
