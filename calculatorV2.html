@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <td colspan="4">
+                    <input type="text" id="inputBox" value="0"/>
+                </td>
+            </tr>
+            <tr>
+                <td class="digitButton" onclick="digitPressed(7)">7</td>
+                <td class="digitButton" onclick="digitPressed(8)">8</td>
+                <td class="digitButton" onclick="digitPressed(9)">9</td>
+                <td class="operatorButton" onclick="operatorPressed('*')">x</td>
+            </tr>
+            <tr>
+                <td class="digitButton" onclick="digitPressed(4)">4</td>
+                <td class="digitButton" onclick="digitPressed(5)">5</td>
+                <td class="digitButton" onclick="digitPressed(6)">6</td>
+                <td class="operatorButton" onclick="operatorPressed('/')">÷</td>
+            </tr>
+            <tr>
+                <td class="digitButton" onclick="digitPressed(1)">1</td>
+                <td class="digitButton" onclick="digitPressed(2)">2</td>
+                <td class="digitButton" onclick="digitPressed(3)">3</td>
+                <td class="operatorButton" onclick="operatorPressed('+')">+</td>
+            </tr>
+            <tr>
+                <td class="digitButton" colspan="2" onclick="digitPressed(0)">0</td>
+                <td class="clearButton" onclick="clearInput()">C</td>
+                <td class="operatorButton" onclick="operatorPressed('-')">-</td>
+            </tr>
+            <tr>
+                <td class="equalButton" colspan="4" onclick="equalsPressed()">=</td>
+            </tr>
+        </table>
+        <script src="calculator.js"></script>
+    </body>
+</html>

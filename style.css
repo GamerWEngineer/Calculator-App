@@ -1,0 +1,52 @@
+p{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 1.5;
+}
+h1 {
+    color: rgb(5, 116, 207);
+    font-size: 24px;
+    text-align: center;
+}
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+/*
+table {
+    color: #fff;
+    text-align: center;
+    border-collapse: collapse;
+    font: normal 3em Arial, Helvetica, sans-serif;
+}
+tr{
+    height: 16.02vh;
+    background-color: #4e494d;
+}
+td {
+    width: 25vw;
+    border: 1px solid #4e494d;
+}
+
+#inputBox{
+    background-color: #4e494d;
+    text-align: right;
+    width: 100%;
+    font-size: 2em;
+    color: #fff;
+    border: 0px;
+}
+.digitButton{
+    background-color: #807e80;
+}
+.operatorButton{
+    background-color:  #ff9e06;
+}
+.equalButton{
+    background-color: #ff9e06;
+}
+.clearButton{
+    background-color: #656165;
+}*/
